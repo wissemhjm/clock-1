@@ -29,11 +29,11 @@ function runTimer(){
 
   seconds++;
 
-  if (seconds == 60) {
+  if (seconds == 61) {
     minutes++;
     seconds = 0;
   }
-  if (minutes == 60) {
+  if (minutes == 61) {
     hours++;
     minutes = 0;
   }
@@ -47,6 +47,24 @@ function runTimer(){
 
   if (hours < 10) {
     hours = "0" + hours;
+  }
+
+
+
+  if(seconds === 51){
+    alert("go take 10min guys")
+  }
+
+  if (seconds===60){
+    alert("time is over guys")
+  }
+
+  if (minutes==01 && seconds==02){
+  alert("go take red pen")
+  }
+
+  if (minutes === 3){
+    alert("it's lench time")
   }
 
 
@@ -74,3 +92,10 @@ function reset(){
 startBtn.addEventListener("click", start);
 stopBtn.addEventListener("click", stop);
 resetBtn.addEventListener("click", reset);
+
+var arro1 = document.getElementById("arrow1");
+var arro2 = document.getElementById("arrow2");
+
+arro1.onclick = function (){
+  minutes
+}

@@ -71,3 +71,22 @@ h2{
     padding-left: 72px;
     padding-top: 101px;
 }
+
+
+#arrow1{
+  font-size:100px;
+  background-color: #111;
+}
+
+#arrow2{
+  font-size: 100px;
+  margin-left: -605px;
+  background-color: #111;
+}
+#arrow1:hover {
+  box-shadow: 0 0 5px #1e9b1e, 0 0 25px #1e9b1e, 0 0 50px #1e9b1e, 0 0 100px #1e9b1e;
+}
+
+#arrow2:hover {
+  box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red;
+}
