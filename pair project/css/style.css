@@ -1,11 +1,21 @@
 body{
-    background-image:url(./photos/Frost.jpg) ;
-}
+    background-image:url(https://as1.ftcdn.net/v2/jpg/04/78/82/08/1000_F_478820865_BCqXwaxWMHFMWdHyNCwW7wQR5PzkqS5X.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+  }
 h2{
-  color: #ffffff;
+  color:#f96868;
   font-size: 60px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: -9px;
+}
+
+#h3{
+  color: #f96868;
+  margin-left: 1077px;
+  margin-top: 235px;
+  font-size: 35px
 }
 .b {
     background-color: #111;
@@ -21,6 +31,7 @@ h2{
   
   .b:hover {
     box-shadow: 0 0 5px #1e9b1e, 0 0 25px #1e9b1e, 0 0 50px #1e9b1e, 0 0 100px #1e9b1e;
+    cursor: pointer;
   }
   .b1 {
     background-color: #111;
@@ -36,6 +47,7 @@ h2{
   
   .b1:hover {
     box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red;
+    cursor: pointer;
   }
   .b2 {
     background-color: #111;
@@ -51,6 +63,7 @@ h2{
   
   .b2:hover {
     box-shadow: 0 0 5px yellow, 0 0 25px yellow, 0 0 50px yellow, 0 0 100px yellow;
+    cursor: pointer;
   }
   .b{
     margin-right: 50px;
@@ -64,10 +77,10 @@ h2{
     font-size: 173px;
 }
 .timer{
-    padding-left: 650px;
-    padding-top: 100px;
+  padding-left: 434px;
+  padding-top: -20px;
 }
-.bu{
+.bn{
     padding-left: 72px;
     padding-top: 101px;
 }
@@ -75,13 +88,17 @@ h2{
 
 #arrow1{
   font-size:100px;
-  background-color: #111;
+  background-color: #1f6200 ;
+  margin-top: -10px;
+  cursor: pointer;
+  margin-left: 15px;
 }
 
 #arrow2{
   font-size: 100px;
-  margin-left: -605px;
-  background-color: #111;
+  margin-left: -630px;
+  background-color:#dd0f0f;
+  cursor: pointer;
 }
 #arrow1:hover {
   box-shadow: 0 0 5px #1e9b1e, 0 0 25px #1e9b1e, 0 0 50px #1e9b1e, 0 0 100px #1e9b1e;
