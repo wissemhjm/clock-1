@@ -11,8 +11,7 @@ var aud6 = document.getElementById("aud6");
 var aud7 = document.getElementById("aud7");
 var aud8 = document.getElementById("aud8");
 var aud9 = document.getElementById("aud9");
-var aud10
- = document.getElementById("aud10");
+var aud10 = document.getElementById("aud10");
 var hours = 0;
 var minutes = 0;
 var seconds = 0;
